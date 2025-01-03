@@ -57,8 +57,10 @@ document.addEventListener("DOMContentLoaded", () => {
             showPopup("Informe o nome para realizar a pesquisa.", "alert");
             return;
         }
-    
-        fetch(`http://localhost:3000/comandos/getName/?name=${encodeURIComponent(busca)}`)
+        
+        //https://painel-comandos.vercel.app/       URL VERCEL
+        //http://localhost:3000/                    LOCAL
+        fetch(`https://painel-comandos.vercel.app/comandos/getName/?name=${encodeURIComponent(busca)}`)
             .then(response => {
                 if (!response.ok) {
                     if(response.status == 404) {
@@ -187,7 +189,7 @@ document.addEventListener("DOMContentLoaded", () => {
             execute3: execute3Input.value
         };
 
-        fetch(`http://localhost:3000/comandos/${idInput.value}`, {
+        fetch(`https://painel-comandos.vercel.app/comandos/${idInput.value}`, {
             method: "PUT",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(commandData),

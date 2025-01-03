@@ -53,7 +53,9 @@ document.addEventListener("DOMContentLoaded", () => {
             execute3: execute3
         };
 
-        fetch("http://localhost:3000/comandos", {
+        //https://painel-comandos.vercel.app/       URL VERCEL
+        //http://localhost:3000/                    LOCAL
+        fetch("https://painel-comandos.vercel.app/comandos", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify(commandData),

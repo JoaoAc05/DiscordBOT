@@ -52,7 +52,9 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }   
 
-        fetch(`http://localhost:3000/comandos/getName/?name=${encodeURIComponent(busca)}`)
+        //https://painel-comandos.vercel.app/       URL VERCEL
+        //http://localhost:3000/                    LOCAL
+        fetch(`https://painel-comandos.vercel.app/comandos/getName/?name=${encodeURIComponent(busca)}`)
             .then(response => {
                 if (!response.ok) {
                     if(response.status == 404) {
@@ -148,7 +150,7 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        fetch(`http://localhost:3000/comandos/${id}`, { 
+        fetch(`https://painel-comandos.vercel.app/comandos/${id}`, { 
             method: "DELETE"
         })
         .then(response => {

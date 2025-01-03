@@ -41,9 +41,11 @@ document.addEventListener("DOMContentLoaded", () => {
     async function fetchCommands() {
         const query = searchInput.value.trim(); // Obtém o valor do campo, removendo espaços extras
 
+        //https://painel-comandos.vercel.app/       URL VERCEL
+        //http://localhost:3000/                    LOCAL
         let url = query 
-            ? `http://localhost:3000/comandos/getName/?name=${encodeURIComponent(query)}` // Pesquisa por nome
-            : `http://localhost:3000/comandos?page=${currentPage}&limit=${itemsPerPage}`; // Pesquisa geral
+            ? `https://painel-comandos.vercel.app/comandos/getName/?name=${encodeURIComponent(query)}` // Pesquisa por nome
+            : `https://painel-comandos.vercel.app/comandos?page=${currentPage}&limit=${itemsPerPage}`; // Pesquisa geral
 
 
         try {
