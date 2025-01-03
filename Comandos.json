@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1,
+    "data": {
+      "name": "help",
+      "description": "Lista de todos os comandos e suas descrições"
+    },
+    "execute": "**Uteis**\n/senhas - Padronização das senhas - senhas usuais\n/cliente-contabilidade - Lista de loging e senha do ContabilidadeOnline.\n/cliente-painel - Lista de loging dos clientes\n/links - Links utilitários para o trabalho\n/vpn - VPNs para acesso a clientes\n\n**Instalação Inicial**```/servidor - Auxilio para instalação, configuração e migração de servidor\n/terminal - Auxilio para instalação de terminal\n/atualizar - Tutorial de como realizar uma atualização em sistema de clientes\n/certificado - Tutorial para instalação de certificado digital```\n**Instalação de Serviços**\n/peace - Tutorial de instalação e manutenção do peace e service\n/contabilidade - Tutorial de instalação do contabilidade online\n/painel - Tutorial de instalação do Painel do Armazém Online\n/distribuicao - Tutorial de instalação do distribuição\n/pedido-online - Tutorial de intalação do PDV Online\n/painel-corretora - Auxilio de instalação e configuração do painel contratos.",
+    "execute2": "**Configuração de serviços**```/balanca - Auxilio para configuração de balanças\n/camera - Auxilio para configuração de câmeras para foto-pesagem\n/liberar - Liberação do sistema de forma automática em caso de (NÃO AUTORIZADO)\n/logos - Redimensionamento das logos em cada sistema\n/sincronizacao - Tutorial de sicronização entre finanças e transporte\n/emissor - Como cadastrar uma nova entidade emissora nos sistemas\n/email - Como configurar email automatico para o cliente\n/averbacao - Tutorial para configurar averbação nos clientes\nboleto - Tutorial para configurar boleto```\n\n**Erros**\n/corrompido - Tutorial de ajuste para bases do sistema corrompidas\n/fcp - Solução do Erro (NF-e de devolucao com valor do FCP superior a NF-e devolvida)\n/midas - Tutorial para resolver o problema de midas.dll\n/ponto - Erros na importação de arquivo ponto e soluções\n\n**Para o Cliente**```/nutror-f - Links dos vídeos dos sistemas (no YouTube) - Finanças\n/nutror-a - Links dos vídeos dos sistemas (no YouTube) - Armazem\n/nutror-t - Links dos vídeos dos sistemas (no YouTube) - Transporte\n/cliente-averbacao - Tutorial de como realizar a averbação de CT-e manualmente (passar para os clientes)```"
+  },
+  {
+    "id": 2,
+    "data": {
+      "name": "senhas",
+      "description": "Padronização das senhas - senhas usuais"
+    },
+    "execute": "Senhas padrões: ```Usuarios de remoto - #(3 primeiras letras).1122@\nex: #joa.1122@\nNosso: #Sistemas.1122@\n\nEmpresas: BRSTVALE\n\nSenha padrão do sistema: 1122\n\nVPN: #Brst.9015brasil@\n\nOutros: brst.1122```"
+  },
+  {
+    "id": 3,
+    "data": {
+      "name": "cliente-contabilidade",
+      "description": "Lista de loging e senha do ContabilidadeOnline."
+    },
+    "execute": "RuralHub\nUsuario: gestaobrst@gmail.com\nSenha: brst.1122\n\nNutrirural\nUsuario: ? \nSenha: ? \n\nClaudia Armazéns\nUsuario: claudiaarmazensgerais@hotmail.com\nSenha: #Claudia.1122@\n\nUnião Armazém\nUsuario: armazemuniao@live.com\nSenha: #Uniao.1122@\n\nSabo Armazém\nUsuario: fiscal@saboagro.com.br\nSenha: #Sabo.1122@\n\nSabo Transportes\nUsuario: sabotransportadora@hotmail.com\nSenha: #Sabo.1122@\n\n"
+  },
+  {
+    "id": 4,
+    "data": {
+      "name": "cliente-painel",
+      "description": "Lista de loging dos clientes no Painel Armazém"
+    },
+    "execute": "Cada cliente possue um prefixo para fazer o loging no painel, utilizando a sintaxe \"Usuario do Sistema @ Prefixo\" e a senha é a mesma utilizada para loging no sistema.\n\nAgriBusines: @agribusines\nEx: Diego@agribusines - senha: 1234\n\n Efraim: \nEx: ...@ - senha: \n\n Sabo: \nE: ...@ - senha: "
+  },
+  {
+    "id": 5,
+    "data": {
+      "name": "links",
+      "description": "Links utilitarios para o trabalho"
+    },
+    "execute": "**Links Uteis**\n\nPortal CTE - https://www.cte.fazenda.gov.br/portal/\nPortal NFE - https://www.nfe.fazenda.gov.br/portal/principal.aspx\nPortal MDFE - https://dfe-portal.svrs.rs.gov.br/Mdfe\n\nPainel Peace - https://peace.ruralhub.com.br/dashboard\nPainel ContabilidadeOnline - https://contabilidade.ruralhub.com.br/\nPainel Armazém - https://www.brst.com.br/cliente/painel_armazem/index.html\nPainel Pedido Online - \nPlanilha Cientes - https://docs.google.com/spreadsheets/d/1l6P-r3qp4b2r9VXidlfs0YmfNnk2akXSLnUGBQ92M3A/edit#gid=0\nNutror - https://app.nutror.com/cursos\nAtendimentos - https://atendimentos.ruralhub.com.br/\n\nPainel RuralHub - https://ruralhub.com.br/BRCentral/home.html\nPainel Brasil - https://brst.com.br/painel/admBrst/index.php\n\nConsulta MDFe - https://dfe-portal.svrs.rs.gov.br/Mdfe/QrCode?chMDFE= CHAVE DO MDFE &tpAmb=1"
+  },
+  {
+    "id": 6,
+    "data": {
+      "name": "vpn",
+      "description": "VPNs para acesso a clientes."
+    },
+    "execute": "Link: https://www.radmin-vpn.com/\nRede: NomeDoCliente\nSenha: #Brst.9015brasil@ ```Nossa  VPN\nRede: RuralHub\nSenha: @Brst.9015brasil@\n\nCLIENTES VPN\n\nNutribio\nRede: Nutribio\nSenha: ag_r00t#\n\nMultitrato\nRede: REDE_MULTITRATO\nSenha: REDE_MULTITRATO\n\nMontreal\nRede: SRVMONTREAL\nsenha: #Brst.9015brasil@\n\nCereais Mass\nRede: CEREAIS MASS\nSenha: #Brst.9015brasil@\n\nArmazem JL\nRede: JL_ARMAZEM\nSenha:#Brst.9015brasil@\n\nAgriBusiness\nRede: agrimatriz\nSenha: #agri.1122@\n\nFazenda Cristo Rei\nRede: VERA_ARMAZEM\nSenha: #vera.1122@\n\nSabo\nRede: SERVIDOR_SABO\nSenha: #Sistemas.1122@\n\nMinuano\nRede: FAZENDASMINUANOSINOP\nSenha: @minuano#2017***\n\nGranel\nRede: SERVER_FIN\nSenha: #Sistemas.1122@\nAnydesk Fixo: 948300904\n\nCattapan\nRede: RedeCattapan\nSenha: #Brst.9015brasil@\nAnydesk Fixo: 1619419021\n\nContasul - Fazenda\nRede: RedeContasul\nSenha: #Brst.9015brasil@\n\nVia Norte Armazém\nRede: ViaNorteArmazem\nSenha: #Brst.9015brasil@\n\nConfigrão - Mutum\nRede: Rede_Configrao\nSenha: #Brst.9015brasil@\n\nAGDP\nRede: AGDP\nSenha: #AGDP.1122@\n\nArmazem Sorriso\nRede: Rede_ARM_SORRISO\nSenha: #Brst.9015brasil@\n\nSagrado Coração\nRede: Rede_Sagrado_Coracao\nSenha: #Brst.9015brasil@\n\nGT VIA CAMPO\nRede: GTAGRONEGOCIO\nSenha: #Brst.9015brasil@\n\nFaz Reunidas\nRede: FazReunidas\nSenha: #Brst.9015brasil@\n\nAgro Zardo\nRede: AgroZardo\nSenha: #Brst.9015brasil@\n\nSol do Cerrado\nRede: S_D_C\nSenha: #SDC.1122@```"
+  },
+  {
+    "id": 7,
+    "data": {
+      "name": "servidor",
+      "description": "Auxilio para instalação, configuração e migração de servidor"
+    },
+    "execute": "**Instalação do Sistema no Cliente (Servidor)**\n```\nC:\\Program Files\\\n1 - Criar Pasta Brasil Sistemas\n2 - Propriedades (Da pasta Brasil Sistemas)\n3 - Segurança\n4 - Editar\n5 - Adicionar (Todos)\n6 - Adicionar todas permissões\n7 - OK\n8 - Compartilhamento\n9 - Compartilhamento Avançado\n10 - Adicionar (Todos)\n11 - Adicionar todas permissões\n12 - Colocar os Sistemas dentro da pasta\n12.1 - IBExpert\n12.2 - InstallBRST\n12.3 - Pasta DLL\n12.4 - Pasta Fontes\n12.5 - Firebird\n13 - Colocar os sistemas\n13.1 - C:\\BRST\\Softwares FINALIZADOS\\BrArmazem\n13.2 - C:\\BRST\\Softwares FINALIZADOS\\BrFinancas\n13.3 - C:\\BRST\\Softwares FINALIZADOS\\BrTransporte```|- - - - - - - - - - - - -|```Instalar DLLS\n\n1 - Abrir pasta de DLLS\n2 - abrir o instala.bat como admin\n2.1 - Precisa aparecer a mensagem: Registrando as DLLs x64 (deu certo)\n2.2 - Aparecer a mensagem: goto end (deu certo)\n3 - Copiar DLLS\n4 - Colar na pasta System32: C:\\Windows\\System32\n4.1 - Executar o instala.bat como admin\n5 - Colar na pasta SysWOW64: C:\\Windows\\SysWOW64\n5.1 - Executar o instala.bat como admin\n\n|- - - - - - - - - - - - -|\n\n1 - Abrir o InstallBRST.exe\n2 - Click (Acept)\n3 - Colocar C:\\Windows\\SysWOW64\\\n4 - Click (Extract)\n5 - brst.1122\n(apenas a msvcp60.dll pode dar erro)\n6 - Fechar\n\nSe além da msvcp60.dll mais alguma DLL der erro\n1 - Extrair o InstallBrst\n2 - Copiar as DLLs e colocar nas pastas System e Syswow\n3 - Abrir a pasta com o CMD/PowerShell e rodar os comandos para respectivas pastas:\n3.1 - regsvr32.exe C:\\Windows\\System32\\(NOME.DLL)\n3.2 - regsvr.exe C:\\Windows\\SysWOW64\\(NOME.DLL)\n(Algumas dlls podem não conter registro, e dar erro quando executar o comando)```",
+    "execute2": "```Instalar Fontes\n\n1 - Abrir a pasta Fontes\n2 - Seleciona todas\n3 - Botão direito\n4 - Instalar```|- - - - - - - - - - - - -|```INSTALAR FIREBIRD\n\n1 - Iniciar executavel de instalação\nFirebird-2.5.9.27139_0_x64\nNext em todos, manter na pasta padrão\n\nLiberar Firebird no Firewall do windows\n1 - Acessar (Painel de Controle)\n2 - (Sistema e Segurança)\n3 - (Windows Defender Firewall)\n4 - (Permitir que aplicativos se comuniquem através do Windows Defender Firewall) (Lado Esquerdo)\n5 - Click (Alterar Configurações)\n6 - Click (Permitir outro Aplicativo...)\n7 - Adicionar o fbguard e fbserver\n7.1 - Ambos na pasta C:\\Program Files\\Firebird\\Firebird_2_5\\bin\n8 - Permitir Recursos publicos de ambos\n9 - Click (OK)```|- - - - - - - - - - - - -|```Antivírus do Windows - colocar a pasta Brasil Sistemas como exceção\n\n1 - Vá em configurações\n2 - Atualização e Segurança\n3 - Segurança do Windows\n4 - Proteção contra vírus e ameaças\n5 - Gerenciar configurações\n6 - Adicionar ou remover exclusões.\n7 - Selecionar pasta Brasil Sistemas```|- - - - - - - - - - - - -|```Adicionar os sites confiaveis\n\n1 - Opções da internet\n2 - Segurança\n3 - Sites confiaveis\n4 - Sites\n5 - Adicionar os sites Sefaz, Mato Grosso, Gov\nhttps://www5.sefaz.mt.gov.br\nhttps://portal.mt.gov.br\nhttps://www.gov.br/pt-br\nhttps://dfe-portal.svrs.rs.gov.br```",
+    "execute3": "```Verificar caminho do sistema dentro do Empresas\n\nSendo o primeiro o diretório do banco de dados\nE o segundo o diretório do sistema na maquina principal```|- - - - - - - - - - - - -|```Trazer os executaveis dos sistemas para área de trabalho\n2 - renomear tirando o (- atalho)\n3 - Click botão direito\n4 - Click (propriedades)\n5 - Click (compatibilidade)\n6- Click (Executar ... como administrador)\n7 - Tentar abrir o sistema, caso não der certo rever os passos anteriores.```|- - - - - - - - - - - - -|```Verificar a instalação dos Certificados Digitais```|- - - - - - - - - - - - -|```Instalar o Peace\nTuturoial no /peace```|- - - - - - - - - - - - -|```Verificar com o cliente se possui mais terminais para a alteração do diretorio dentro do EMPRESAS```|- - - - - - - - - - - - -|```Criar um usuario com permissão de ADM para acesso de remoto e pastas compartilhadas\n1- WIN+R (ou abrir o executar)\n2 - digitar (control userpasswords2)\n3 - Adicionar\n4 - Entrar sem um conta Microsoft\n5 - Conta Local\n6 - Usuário: brst\n7 - Senha: #Sistemas.1122@\n8 - Dica: Sistemas\n9 - Concluir\n10 - Selecionar o usuário; propriedades\n11 - Associação do grupo> ADM > Ok > Ok```"
+  },
+  {
+    "id": 8,
+    "data": {
+      "name": "terminal",
+      "description": "Auxilio para instalação de terminal"
+    },
+    "execute": "**Instalação do Sistema no Terminal**\n```1 - Na pasta C:\\Program Files\\ Criar Pasta Brasil Sistemas\n2 - Propriedades (Da pasta Brasil Sistemas)\n2.1 - Segurança\n2.2 - Editar\n2.3 - Adicionar (todos)\n2.4 - Adicionar todas permissões\n2.5 - OK\n3 - Colocar a instalação dentro da pasta\n3.1 - IBExpert\n3.2 - InstallBRST\n3.3 - Pasta DLL\n3.4 - Pasta Fontes```|- - - - - - - - - - - - -|```Instalar DLLS\n\n1 - Abrir pasta de DLLS\n2 - abrir o instala.bat como admin\n2.1 - Precisa aparecer a mensagem: Registrando as DLLs x64\n2.1 - Aparecer a mensagem: goto end\n3 - Copiar DLLS\n4 - Colar na pasta System32: C:\\Windows\\System32\n5 - Colar na pasta SysWOW64: C:\\Windows\\SysWOW64\n6 - abrir o instala.bat em ambas as pastas```|- - - - - - - - - - - - -|```Instalar Fontes\n\n1 - Abrir a pasta Fontes\n2 - Seleciona todas\n3 - Botão direito\n4 - Instalar```|- - - - - - - - - - - - -|```Rodar o InstallBRST\n\n1 - Abrir o executavel como admin\n1.1 - InstallBRST.exe\n2 - Click (Acept)\n3 - Endereço: C:\\Windows\\SysWOW64\\\n4 - brst.1122\n5 - Click (Extract)\n(apenas a msvcp60.dll pode dar erro)\n6 - Fechar\n\n\nSe além da msvcp60.dll mais alguma DLL der erro\n1 - Extrair o InstallBrst\n2 - Copiar as DLLs e colocar nas pastas System e Syswow\n3 - Abrir a pasta com o CMD/PowerShell e rodar os comandos para respectivas pastas:\n3.1 - regsvr32.exe C:\\Windows\\System32\\(NOME.DLL)\n3.2 - regsvr.exe C:\\Windows\\SysWOW64\\(NOME.DLL)\n(Algumas dlls podem não conter registro, e dar erro quando executar o comando)```|- - - - - - - - - - - - -|```Antivírus do Windows - colocar a pasta Brasil Sistemas como exceção\n\n1 - Vá em configurações\n2 - Atualização e Segurança\n3 - Segurança do Windows\n4 - Proteção contra vírus e ameaças\n5 - Gerenciar configurações\n6 - Adicionar ou remover exclusões.\n7 - Selecionar pasta Brasil Sistemas```",
+    "execute2": "```Trazer os Sistemas do Servidor\n\n1 - Verificar se temos remoto\n2 - Se não tiver, pedir acesso\n3 - Entrar nas propriedades de compartilhamento da pasta Brasil Sistemas\n4 - Acessar com \\\\ no terminal\n\nERROS:\n1 - verificar descoberta de rede\n2 - verificar credenciais do windows\n2.1 - Abra (Gerenciador de Credenciais)\n2.2 - Click (Credenciais do Windows)\n2.3 - Verifique se possui uma credencial com o nome do servidor\n2.3.1 - Se não tiver: Click (Adicionar uma credencial do Windows)\n2.3.2 - Preencha: Nome direcinal para o servidor\n2.3.3 - Preencha: brst\n2.3.4 - Preencha: #Sistemas.1122@\n2.3.5 - Click (Ok)\n\n3 - Pegar o sistema dentro do servidor\n3.1 - Pasta Schemas (FIN, TRANS e ARMZ\n3.2 - Pasta MDFe (FIN e TRANS)\n3.3 - Pasta temp (ARMZ)\n3.4 - do .exe para baixo\n4 - Reire apenas os jpgs\n5 - Verificar caminho do sistema dentro do Empresas```|- - - - - - - - - - - - -|```Trazer os executaveis dos sistemas para área de trabalho\n1 - renomear tirando o (- atalho)\n2 - Click botão direito\n3 - Click (propriedades)\n4 - Click (compatibilidade)\n5- Click (Executar ... como administrador)\n\nVerificar a instalação dos Certificados Digitais\nPasso a passo no /certificado\n\nFazer liberação de SSL e TSL\n1 - Abrir o Opções da Internet\n2 - Ir em Avançado\n3 - La em baixo liberar tudo de SSL E TLS\n\nLiberar Sites confiaveis\n1 - Ainda no Opções da internet na aba Segurança\n2 - Clicar em Sites Confiáveis e depois em Sites\n3 - Adicionar os seguintes caminhos:\n   https://www5.sefaz.mt.gov.br\n   https://portal.mt.gov.br\n   https://www.gov.br/pt-br\n   https://dfe-portal.svrs.rs.gov.br\n4 - Na aba Privacidade > Sites adicionar os mesmos caminhos.```"
+  },
+  {
+    "id": 9,
+    "data": {
+      "name": "atualizar",
+      "description": "Tutorial de como realizar uma atualização em sistema de clientes"
+    },
+    "execute": "**Atualizar Sistema**\n```1 - Pegar Release\n2 - Colocar na area de trabalho do cliente\n3 - extrair no local\n\n|- - - - - - - - - - - - -|\n\nRenomear o EXE\n\n1 - Abrir o atalho do sistema no local do arquivo\n2 - Renomear o executavel acrescentando a data atual\nOBS: Processo realizado para ninguém conseguir acessar o sistema enquanto você atualiza.\n\n|- - - - - - - - - - - - -|\n\nREALIZAR BACKUP DA BASE\n\n1 - Ir até a BD do sistema que está sendo atualizado\n2 - Copia e cola a Base de Dados\n3 - Renomear a cópia com a data atual\n\n|- - - - - - - - - - - - -|\n\nComparar as Bases no IBExpert\n\n1 - Se nescesário, dar shutdown\n2 - Após Comparação, verificar o script\n2.1 - Analisár se não foi comparado bases erradas\n3 - Após verificar, rodar o script\nOBS:\n     - Objeto criado\n     - Objeto alterado\n     - Objeto excluido (alerta)\n     - Warning (rodar um script para resolver)\n\n|- - - - - - - - - - - - -|\n\nRedefinir Executável\n\n1 - Copiar o .exe da área de trabalho\n2 - Colar no local onde o outro .exe foi renomeado\n3 - Colar na pasta atl\n\n1 - Desconectar as bases no IBExpert; Fecha-lo\n2 - Apagar os arquivos que ficaram na area de trabalho\n3 - Testar o sistema em alguma operação do cliente\n4 - Verificar caminho do executável da area de trabalho\n\nRELEAZE -> ARQUIVOS DE ATUALIZAÇÃO```"
+  },
+  {
+    "id": 10,
+    "data": {
+      "name": "certificado",
+      "description": "Tutorial para instalação de certificado"
+    },
+    "execute": "**Realizar Instalação do Certificado Digital**\n\n**Sempre que instalar um novo certificado, colocalo na pasta da Brasil Sistemas, e apagar o antigo**\n```1 - Ter o Certificado\n2 - Acessar a Maquina\n3 - Coloca na pasta Certificado\n3.1 - Geralmente dentro da pasta BrSistemas ou do seu respectivo sistema\n4 - Abre arquivo para instalar\n5 - Next\n6 - Colocar senha - Nome do Arquivo ou pedir ao cliente\n6.1 - Marcar chave como exportavel\n8 - avança tudo; ok\n7 - Verficar se foi instalado\n8 - Apagar certificado vencido```|- - - - - - - - - - - - -| ```Conferir Instalação\n\n1 - Pesquisar Opções da Internet\n2 - Click (Conteúdo)\n3 - Click (Certificado)```|- - - - - - - - - - - - -| ```Sistema - Armazem\n\n1 - Abrir o Sistema - Armazem\n2 - Click (Manutenção)\n3 - Click (Dados do Armazem)\n4 - Click (Configurações NFe)\n5 - Click (...)\n6 - Selecionar Certificado\n6.1 - Conferir se possue o mesmo CNPJ/CPF da empresa\n7 - Click (Verificar)\n8 - Click (Entidades Emissoras)\n9 - Selecione a Entidade\n10 - Click (Alterar) - lado direito\n11 - Click (...)\n12 - Seleciona o Certificado\n13 - Click (Gravar)```|- - - - - - - - - - - - -| ```Sistema - Transportes\n\n1 - Abrir o Sistema - Transporte\n2 - Click (Empresa)\n3 - Click (Dados da minha Transportadora)\n4 - Click (Configurações CTe)\n5 - Click (...)\n6 - Selecionar Certificado\n6.1 - Conferir se possue o mesmo CNPJ/CPF da empresa\n7 - Click (Verificar)\n8 - Click (Gravar)```|- - - - - - - - - - - - -| ```Sistema - Finanças\n\n1 - Abrir o Sistema - Financas\n2 - Click (Empresa)\n3 - Click (Dados da Minha Empresa)\n4 - Click (Alterar)\n5 - Click (Configurações DFe)\n6 - Click (Geral)\n7 - Click (...)\n8 - Selecionar Certificado\n8.1 - Conferir se possue o mesmo CPNJ/CPF da empresa\n9 - Click (Verificar)\n10 - Click (Gravar)```"
+  },
+  {
+    "data": {
+      "id": 11,
+      "name": "peace",
+      "description": "Tutorial de instalação e manutenção do peace e service"
+    },
+    "execute": "**Tutorial para Manutenção:**```1 - Parar o serviço do BrService\n2 - Finalizar o processo do Peace\n3 - Verificar se o peace ta abrindo com adimin\n4 - Abrir o peace\n5 - Verificar a pasta origem (Brasil Sistemas)\n6 - Verificar a pasta destino (C:\\Cloud)\n7 - Verificar os 7z\n8 - Verficar liberação dentro do firewall\n9 - Verificar o caminho do Peace no ConfService\n10 - Verificar permições da pasta Cloud\n11 - Verificar o funcionamento do processo do peace\n12 - Verificar se a versão do exe é a mais recente\n13 - Fazer liberação das regras de entrada e saida do firewall\n    13.1 - Abrir o  Windows Defender Firewall\n    13.2 - Configurações Avançadas\n    13.3 - Regras de entrada > Liberar tudo do peace\n    13.4 - Regras de saída > Criar uma nova regra para o peace```\n**Tutorial para Instalação:**```1 - Dentro da pasta Brasil Sitemas faz uma pasta com o nome PeaceDB\n2 - joga o Rar dentro > Descompacta o rar\n3 - Nas propriedades do peace > Abrir sempre como adimin\n4 - liberar o peace no firewall\n5 - No disco C: criar a pasta Cloud\n6 - Dar as permissões de segurança\n\n7 - Abrir o peace\n8 - Pegar o cnpj do sistema\n9 - Preencher no campo e dar um tab\n10 - Click no botão de criar uma pasta no drive\n11 - Selecionar pastas destino\n     11.1 - Brasil sistemas\n     11.2 - Cloud\n12 - Listar 7z > apagar bases de cópia\n13 - Finalizar ao terminar (SIM)\n14 - Salvar\n15 - Fazer um backup manual para teste.```\n **Instalação do Service:**```1 - Colocar o rar do service na pasta Brasil Sistemas\n2 - Descompactar\n3 - Abrir o (Instalar) como adm\n4 - Abrir o ConfService\n5 - Passar a identificação\n6 - Retirar todos os acessos que não são utilizados\n7 - Adicionar o Peace > localhost:6001\n8 - Salvar\n9 - Abrir o gerenciador de tarefas >  Serviços > Executar o BrService\n9 - Aguardar até o Processo do peace abrir.```"
+  },
+  {
+    "id": 12,
+    "data": {
+      "name": "contabilidade",
+      "description": "Tutorial de instalação do contabilidade online"
+    },
+    "execute": "**Instalação do Contabilidade Online**\n```1 - Pegar o rar do contabilidade\n2 - Levar até a pasta Brasil sistemas e Descompactar\n3 - Entrar na pastar e abrir o PowerShell (shift + botão direito do mouse)\n4 - PowerShell:  ./sentinelcontabilidade.exe -install\n4 - CMD: sentinelcontabilidade.exe -install\n5 - Abrir o GerarJson\n6 - Colocar caminho da base\nEx: C:\\Program Files\\Brasil Sistemas\\BrFinancas\\BRFINANCAS.FDB\n\n7 - Colocar caminho dos XML\nEx: C:\\Program Files\\Brasil Sistemas\\BrFinancas\\XML\n\n8 - Abrir o Gerenciador de tarefas > Serviços\n9 - Procurar por ContabilidadeSentinel e colocar para executar\n10 - Ir até o firempresa do sistema\n11 - Configurar todos os dados do contador\n12 - Gravar\n13 - Cadastrar Empresa\n13.1 - Preencher email do cliente (pegar no firempresa ou pedir)\n13.2 - Senha: #EMPRESA.1122@\n14 - Confirmar\n15 - Acessar o cadastro realizado no próprio ContabilidadeOnline.\n\nOBS: Caso haja mais de um sistema utilizando o mesmo CNPJ, basta realizar o cadastro nos dois utilizando o mesmo email e senha.```"
+  },
+  {
+    "id": 13,
+    "data": {
+      "name": "painel",
+      "description": "Tutorial de instalação do Painel do Armazém Online"
+    },
+    "execute": "**Instalação do Painel Online**\n```1 - Pegar o arquivo rar do painel.\n2 - Descompactar dentro da pasta Brasil.\n3 - Verificar se o IP interno está fixo, se não {Fixar}.\n4 - Verificar se o IP externo está fixo, se não {Pedir para a provedora fixar}.\n5 - Verificar se a porta de comunicação 8084 está liberada e direcionada ao servidor, se não {Pedir para a provedora liberar e direcionar para o IP interno}.\n6 - Ajustar o empresas com o IP interno FIXO.\n7 - Ajustar o netdir com o IP interno FIXO.\n8 - Configurar o Painel no ConfService com localhost:8084.\n9 - no navegador colocar o IP interno : porta, para verficar se tem comunicação.\n10 - Na sua maquina acessar o navegador e com o IP externo e a porta verificar se tem comunicação.\n11 - Se todos estes passos derem certo, passar o IP externo para o Will para fazer a liberação da empresa no painel\n12 - Acessar com o loging passado pelo Will para testar.```"
+  },
+  {
+    "id": 14,
+    "data": {
+      "name": "distribuicao",
+      "description": "Tutorial de instalação do distribuição"
+    },
+    "execute": "**Instalação do Distribuição**\n```1 - Pegar o rar dos arquivos\n2 - Criar a pastar Distribuição dentro da pasta Brasil Sistema\n3 - Coloca os arquivos dentro da pasta\n4 - Colocar os caminhos dentro do gerar JSON\n4.1 - Caminho da base com o / .FDB\n  Ex: C:\\Program Files\\Brasil Sistemas\\BrFinancas\\BRFINANCAS.FDB\n\n4.2 - Caminha da pasta XML3\n  Ex: C:\\Program Files\\Brasil Sistemas\\BrFinancas\\xml3\n\n5 - Fazer a instalação do serviço\n5.1 - Abrir a pasta com o PowerShell (shift + botão direito)\n5.2 - PowerShell utilizar o comando:  .\\DistribuicaoDFE.exe -install \n5.2 - CMD utilizar o comando:  DistribuicaoDFE.exe -install\n6 - Inicializar o serviço (Tecla win+r para abrir o executar > digitar services.msc>  encontrar o serviço > botão direito > iniciar\n7 - Verficiar o certificado digital no sistema, que deve estar informado o caminho e senha por diretório.```"
+  },
+  {
+    "id": 15,
+    "data": {
+      "name": "pedido-online",
+      "description": "Tutorial de intalação do PDV Online"
+    },
+    "execute": "Fazer tutorial"
+  },
+  {
+    "id": 16,
+    "data": {
+      "name": "painel-corretora",
+      "description": "Tutorial de instalação do painel corretora"
+    },
+    "execute": "**Instalação do Painel Corretora**\n```1 - Pegar o rar com o sentinela do painel\n2 - Levar até a pasta Brasil sistemas e descompactar\n3 - Abrir o arquivo config e colocar o nome do servidor e o destino da base\n\nex1:\n{\"ip\":\"SERVIDOR\",\n\"base\":\"C:\\\\Program Files\\\\Brasil Sistemas\\\\BrFinancas\\\\BRFIN.FDB\"}\nex2:\n{\"ip\":\"SVR-GRANEL/3080\",\n\"base\":\"C:\\\\Program Files\\\\Brasil Sistemas\\\\BrFinancas Sandri\\\\BRFIN.FDB\"}\n\n4 - Entrar na pastar e abrir o PowerShell (shift + botão direito do mouse)\n5 - PowerShell:  ./SVPainelCorretora.exe -install\n6 - CMD: SVPainelCorretora.exe -install\n7 - Liberar o exe no ant-vírus e no firewall\n8 - Abrir o Gerenciador de tarefas > Serviços\n9 - Procurar por PainelContratos e colocar para executar\n10 - Ir até o dados da empresa do sistema\n11 - Na aba de específicações clicar no botão VINCULO PAINEL CONTRATO\nOBS: Tem que dar 2 mensagens de sucesso\n12 - Passar o painel e auxiliar o cliente a fazer o cadastro da conta e validação de email\n13 - Acesse o rurauth com email admin\n14 - Libere a empresa e adicione o email administrador da empresa\n\n15 - Para colocar os contratos no painel, precisa dar um insert na tabela VINCULO_CONTRATO_ONLINE\n  SQL: select indice As id_contrato from contrato where indice not in(select id_contrato from vinculo_contrato_online)\n  Execute: Exportar o resultado para insert com a tabela VINCULO_CONTRATO_ONLINE e rodar o script\n16 - O status deve ser 0, o sentinela vai atualizar para 1 e jogar para o painel\n17 - Após fazer o insert e update na nova tabela, conferir as logs e ver se deu tudo certo\n18 - Se der certo as logs, acessar o painel e ver se os contratos foram.```"
+  },
+  {
+    "id": 17,
+    "data": {
+      "name": "balanca",
+      "description": "Auxilio para configuração de balanças"
+    },
+    "execute": "```**Configurar Balança**\n\n1 - Dentro do servidor pegar o hercules\n1.1 - C:\\BRST\\Brasil Sistemas\\BrArmazem\n2 - Colocar no terminal\n4 - Gerenciamento de dispositivos\n     4.1 - Indentificar cabo da balança\n     4.2- Pegar a porta COM\n5 - Entrar no hércules\n6 - Definir a porta COM do cabo\n7 - Verificar baud correto > testar\n     - Se os dados estiverem vindo zuados pode ser o driver do cabo\n     - (Trocar para o driver que tem no servidor de 2009)\n8 - Acessar o Armazem\n9 - Simular um romaneio e pesagem\n10 - Entrar nas configurações da balança (alt + f)\n11 - Verificar baud, porta COM, caracteres, inicio e fim, caracter final\n12 - Salvar\n - Se nos dados que o Hércules estiver retornando mais de uma letra não informar ela como caractere final, então pode deixar em branco.```|- - - - - - - - - - - - -|```Como Alterar o Driver do Cabo COM\n\n1 - No gerenciador de dispositivos ir até as propriedades do cabo\n2 - Ir até o driver do cabo\n3 - Atualizar Driver > Procurar no computador > Permitir que escolha > Com disco > Selecionar o driver\n4 - Salvar alteração```"
+  },
+  {
+    "id": 18,
+    "data": {
+      "name": "camera",
+      "description": "Auxilio para configuração de câmeras para foto-pesagem"
+    },
+    "execute": "**Configuração das câmeras para Foto-Pesagem**\n```Instalação de pluging\n1. Ir em D:\\Arquivos Suporte\\Uteis\\Instalacao Camera, e pegar o arquivo rar Instalação Camera.\n2. Dentro do arquivo Instalador_Camera e executar o arquivo _REGISTER_FILTER.cmd.\n3. Copiar os arquivos ffmpeg (.html e .exe) e colar dentro da pasta que contem o exe do armazem.\n4. Criar uma pasta com o nome temp dentro da pasta do armazem (Brasil Sistemas -> BrArmazem)\n5. Caso o windows seja de 32 bits jogar o ffmep de 32 correto na pasta do armazem.\n7. A foto vai ficar salvo dentro da pasta temp criado.```",
+    "execute2": "```**Configurar Camera e Testar**\n\n1. Acessar o IP no navegador (Disponibilizado pelo TI)\n     - Ex: https://192.168.88.245\n2. Passar o usuário e senha (Disponibilizado pelo TI)\n     - OBS: caso as senhas tenha caractere, no link devem ser substituidas pelo seu código ascii\n    ex: # = %23\n     https://www.dofactory.com/html/url-encode\n     ASCII Encoding Reference\n3. Verificar a câmera\n     - Nas configurações de video habilitar a codficação inteligente\n     - Procurar as melhores configurações para que a camera abra rapidamente\n     - Verificar se está habilitado o RTMP individual de cada câmera\n     - Acessar a camera individualmente e verificar isso.\n4. Testar a câmera no VLC\n     - Mídia > Transmissão de rede\n     - extrutura padrão: rtsp://usuario:senha@ip:portaRtsp /cam/realmonitor?channel(NUMERO)&subtype=0\nExemplos que deram certo:\n     - rtsp://admin:super%232324@192.168.88.245:554/cam/realmonitor?channel=2&subtype=0 (PORTA RTSP)\n     - rtsp://admin:super%232324@192.168.88.245:554/cam/realmonitor?channel=3&subtype=0 (PORTA RTSP)\n5. Testar a câmera prompt\n     - Abrir a pasta que foi ajustada com os ffmpeg (Brasil Sistemas -> BrArmazem)\n     - Copiar caminho: C:\\Program Files\\Brasil Sistemas\\BrArmazem\n     - Abrir no CMD = cd C:\\Program Files\\Brasil Sistemas\\BrArmazem\n     - executar seguinte comando:\n     .\\ffmpeg.exe -rtsp_transport tcp -y -i \"SubstituirComLink\" -pix_fmt yuvj420p -frames:v 1 ./temp/1.jpg\nEx:\n .\\ffmpeg.exe -rtsp_transport tcp -y -i \"rtsp://admin:admin12345@192.168.1.31:554/cam/realmonitor?channel=1&subtype=0\" -pix_fmt yuvj420p -frames:v 1 ./temp/1.jpg\n\n     - Se tirar a foto e for para a pasta temp, está tudo correto.```",
+    "execute3": "**Configurar Câmera no Sistema**\n```1. Abrir o sistema do Armazem > Firempresa > Parâmetros > Câmera/Pesagem SIM\n2. Abrir Firempresa no IBExpert > CAMERA = 1 e CAMERA_PESAGEM = 1\n3. Abrir o sistema do Armazem > Manutenção > Configurações > Câmera\n     3.1- Descrição\n     3.2- Campo Destino deixar vazio\n     3.3- Selecionar a balança\n     3.4- Formato JPG\n     3.5- Selecionar a proporção da camera\n     3.6- Selecionar a posição da camera\n     3.7- Campo do IP colocar o link de acesso utilizado no VLC (com o usuario e senha)\n     3.8- Usuario e senha deixa em branco\n\nAlterar as impressões dos romaneios para aparecer a foto pesagem\n     - Os relatórios se encontram em: D:\\Arquivos Suporte\\Uteis\\Cameras\\Relatorios\n     - Renomear Roma_saida e substituir com o relatório novo de saida\n     - Renomear Roma_entrada e substituir com o relatório novo de entrada```"
+  },
+  {
+    "id": 19,
+    "data": {
+      "name": "liberar",
+      "description": "Liberação do sistema de forma automática em caso de (NÃO AUTORIZADO)"
+    },
+    "execute": "**Liberação de sistema em caso de (NÃO AUTORIZADO)**\n```1 - Acessar o executar (WIN + R)\n2 - Digitar (regedit)\n3 - Encontrar a pasta relativa ao sistema que não esta liberado\n4 - Excluir o arquivo (EnviaEmp)\n5 - Acessar o sistema novamente\n\nSe não liberar - Pedir autorização ao Hans ou ao Marcos para liberar Manualmente```"
+  },
+  {
+    "id": 20,
+    "data": {
+      "name": "logos",
+      "description": "Redimensionamento das logos em cada sistema"
+    },
+    "execute": "**Configurações de logo**\nAs logos devem ser no formato **JPG**\n```Finanças\nLogEmpresa - 400x217\nLogTopEmp - 212x62\nempresa - 596x324\n    (L x A)```|- - - - - - - - - - - - -|```\nTransportes\nLogEmpresa - 434x236\nLogTopEmp - 434x236\nempresa - 38x33\n    (L x A)```|- - - - - - - - - - - - -|```\nArmazem\nLogEmpresa - 434x236\nLogoRel - 278x173\nLogTopEmp - 80x47\nempresa - 38x33\n    (L x A)```"
+  },
+  {
+    "id": 21,
+    "data": {
+      "name": "sincronizacao",
+      "description": "Tutorial de sicronização entre finanças e transporte"
+    },
+    "execute": "**Como realizar soncronização de bases**\nFINANÇAS c TRANSPORTE```1 - Realizar um backup das bases\n2 - Abrir o IB\n3 - Na base do Finanças acessar a tabela FIREMPRESA\n4 - Na coluna Destino_Trans > Preencher o IP interno FIXO e o destino do sistema\nex: 192.168.0.50:C:\\Program Files\\Brasil Sistemas\\Azevedo Transportes\\BRTRANS.FDB\n\n5 - Na coluna Sincrodados > Preencher 1 (Sincroniza)\n6 - Na coluna IP_SINCRODADOS > Preencher o IP interno FIXO\n7 - Na base do Transportes acessar a tabela FIREMPRESA\n8 - Na coluna Base_Financas > Preencher o IP interno FIXO e o destino do sistema\n9 - Na coluna Sincrodados > Preencher 0\n10 - Pegar a pasta do SincroDados e colocar dentro da Brasil Sistemas do cliente\n11 - No IBE acessar a base de SincroDados (BrImportacao)\n12 - Na tabela Empresa > Preencher o nome da empresa\n13 - Finalizar o serviço do BrService e acessar o ConfService\n14 - Adicionar o Sincrodados com o (IP interno Fixo:8091)\n15 - Iniciar o BrService\n16 - Gerar um financeiro de CTE/CTF para realizar o teste\n17 - Se der certo só acessar o finanças e apagar o contas.```"
+  },
+  {
+    "id": 22,
+    "data": {
+      "name": "emissor",
+      "description": "Como cadastrar uma nova entidade emissora nos sistemas"
+    },
+    "execute": "Fazer tutorial"
+  },
+  {
+    "id": 23,
+    "data": {
+      "name": "email",
+      "description": "Como configurar email automatico para o cliente"
+    },
+    "execute": "**Como configurar email automatico para o cliente**\n```1 - Verificar se o email é comercial, @gmail ou @hotmail.\n\n2 - Pedir ao cliente para deixar o Google aberto logado no email e pedir para ele acompanhar\n3 - Acessar o gerenciamento da conta\n4 - Verificar se possui ao menos uma verificação de 2 etapas\n5 - Pesquisar por senha de app\n6 - Criar uma nova com o nome Brasil Sistemas e copiar a senha\n7 - Ir até o usuário do sistema na aba de email\n8 - Portas: 465 e 587\nHOST Gmail: smtp.gmail.com\nHOST Hotmail: smtp.live.com   smtp.office365.com\nHOST Corporativo: email-ssl.com.br   smtp.\"substituir\".com.br\n\nExemplos no servidor: D:\\Arquivos Suporte\\Uteis\\Exemplos de config email```"
+  },
+  {
+    "id": 24,
+    "data": {
+      "name": "averbacao",
+      "description": "Tutorial para configurar averbação nos clientes"
+    },
+    "execute": "**Como configurar averbação nos clientes**\n```1 - Abra o IBExpert\n2 - Table Firempresa > Dados_Averb\n3 - Preencher com esta estrutura: {\"usuario\":\"usuarioATM\",\"senha\":\"senhaATM\",\"cnpj\":\"CNPJdaEmpresa\",\"cod_atm\":\"codigoATM\"}\n\nEx: {\"usuario\":\"WS\",\"senha\":\"base123\",\"cnpj\":\"52652681000176\",\"cod_atm\":\"11440856\"}\n3.1 - Estes dados a averbadora que tem que passar\n4 - Table Firempresa > Exporttrans > Preencher 1\n5 - Se tiver limite de averbação preencher na coluna Limite_Averbacao\n6 - Preencher a Averbadora na coluna Tipo_Averbacao (A coluna possui descrição)```"
+  },
+  {
+    "id": 25,
+    "data": {
+      "name": "boleto",
+      "description": "Tutorial para configurar boleto"
+    },
+    "execute": "**Tutorial para configurar boleto**\n```1 - Pedir as seguintes informações para o cliente\n-Numero de Agência e Digito da Agência\n-Numero da Conta\n-Carteira\n-Convênio\n-Cedente e CNPJ\n-Modelo do layout (240 ou 400)\n-Modalidade\n-Vai haver Multa? Se sim a porcentagem de multa\n-Vai haver Juros? Se sim o juros de mora por dia\n-Vai haver Protesto? Se sim quantos dias para protesto\n\n2 - Pedir ao cliente para cadastrar o banco e a conta corrente no sistema.\n3 -  Com todas estas informações você vai até a tabela CONF_BOLETO e preenche os campos```\n\nObs: Protestar SIM = null ou 0  | Protestar NÃO = 1"
+  },
+  {
+    "id": 26,
+    "data": {
+      "name": "corrompido",
+      "description": "Tutorial de ajuste para bases do sistema corrompidas"
+    },
+    "execute": "**Restaurar Base Corrompida**\n\nERRO: IMPLEMENTATION LIMIT EXCEEDED TRANSACTIONS COUNT EXCEEDED.```1 - Realizar Backup Da Base (CNTRL C + CNTRL V)\n2 - Abrir IBExpert\n3 - Dar shutdown na base > Dar online na base\n4 - Abrir o CMD como admin\n5 - Entrar no caminho do executavel do firebird\nex: cd C:\\Program Files\\Firebird\\Firebird_2_5\\bin\n6 - Colocar a base como modo de leitura\nex1: gfix -user SYSDBA -password masterkey -mo read_only C:\\Program Files\\Brasil Sistemas\\BrFinancas\\BRFIN.FDB\nex2: gfix -user SYSDBA -password masterkey -mode read_only C:\\Program Files\\Brasil Sistemas\\BrFinancas\\BRFIN.FDB\n\n7 - Voltar pro IBE para fazer o processo de restaurar\n8 - Clicar em Services > Backup Database > Start Backup\n9 - Clicar em Services > Restore Database\n9.1 - Restore into selecionar New Database\n9.2 - Database File selecionar a base corrompida\n9.3 - File Name . Clicar em cima da area branca > 3 pontos > selecionar o .fbk\n9.4 - Start Restore\n10 - Encontrar o local onde foi definido para a base restaurada\n11 - Colocar ela em modo de escrita\nex: gfix -user SYSDBA -password masterkey -mode read_write C:\\Program Files\\Brasil Sistemas\\BrFinancas\\BRFIN.FDB```\nLink para auxilio: https://community.spiceworks.com/t/restaurando-banco-com-erro-transactions-count-exceeded/"
+  },
+  {
+    "id": 27,
+    "data": {
+      "name": "fcp",
+      "description": "Solução do Erro (NF-e de devolucao com valor do FCP superior a NF-e devolvida)"
+    },
+    "execute": "**Solução do Erro (NF-e de devolucao com valor do FCP superior a NF-e devolvida)**\n```1 - Pegar o código/indice da NF-e de devolução\n2 - Acessar a base do finanças no IBE\n3 - Na tabela NFS identificar a NF-e de devolução\n4 - Ir até a coluna VFCP e colocar o valor 0\n5 - Ir na tabela Itens_NFS\n6 - Setar NULL a coluna FCP\n7 - Abrir a tabela Tabela_FCP\n8 - Clicar em table(canto superior esquerto)\n9 - Clicar em Empty Table > Ok\nIsso vai deletar todas as linhas da tabela (não é mais uma tabela utilizada, e custama dar erro)\n10 - Relogar no sistema e emitir a nota novamente```"
+  },
+  {
+    "id": 28,
+    "data": {
+      "name": "midas",
+      "description": "Tutorial para resolver o problema de midas.dll"
+    },
+    "execute": "**ERRO NO MIDAS AO TENTAR ACESSO AO SISTEMA**\n```1 - Trazer para o terminal o arquivo Onde está o Midas\n2 - Executar para verificar o caminho\n3 - Abrir o CMD como admin\n4 - Retirar o registro do midas e registrar novamente\n4.1 - regsvr32 CAMINHO\\midas.dll -u\n4.2 - regsvr32 CAMINHO\\midas.dll\n\n|- - - - - - - - - - - - -|\n\nSe não der certo\n1 - Ir até o InstallBRST e extrair os arquivos\n2 - Copiar todas as dlls e jogar nas pastas System32 e SysWOW64\n3 - Registrar o midas nestes locais\n3.1 - Regsvr32 C:\\Windows\\SysWOW64\\midas.dll (Para sistema 64bits)\n3.2 - Regsvr32 C:\\Windows\\System32\\midas.dll (Para sistemas 32bits)\n\n|- - - - - - - - - - - - -|\n\nSe não der certo\n1 - Abrir o executar (win + r)\n2 - cntrl + f > pesquisar por midas.dll\n3 - .....```"
+  },
+  {
+    "id": 29,
+    "data": {
+      "name": "ponto",
+      "description": "Erros na importação de arquivo ponto e soluções"
+    },
+    "execute": "**Arquivo Ponto de funcionário não esta importando, o que verificar?**\n```1 - Pedir ao cliente qual é o funcionário e pedir para encaminhar o arquivo ponto\n2 - Colocar o arquivo ponto do validador (DemoPonto)\n2.1 - D:\\Arquivos Suporte\\Uteis\\DemoPonto\n3 - Verificar se o Nome está igual\n3.1 - Verificar se o PIS está igual\n4 - Verificar se antes de importar o ponto, foi gerado a movimentação anual zerada.\n5 - Verificar se no cadastro do funcionario não está preenchido a data de demissão\n6 - Verificar se está no modelo correto (AFD)\n7 - Verificar se no cadastro da entidade esta com o ponto marcado como \"Sim\"```\nOBS: **O PIS cadastrado na entidade não pode conter 0 no inicio**\nNutror: https://app.nutror.com/curso/0beec333567018411784fad67b92c6e606636d88/aula/2674486\n\nO que sâo os arquivos: https://www.pontotel.com.br/arquivos-afd-afdt-acjef/"
+  },
+  {
+    "id": 30,
+    "data": {
+      "name": "nutror-f",
+      "description": "Links dos vídeos dos sistemas (no YouTube) - Finanças"
+    },
+    "execute": "```Vídeos Finanças\n= = = = = = = = = = = = = = =\nEntidades\n-Cadastro de Entidades\nhttps://youtu.be/25gEfzWPbtc\n\n-Cadastro de Funcionários\nhttps://youtu.be/ZKKeWEYcuDw\n\n-Alterando Cadastros de Entidades\nhttps://youtu.be/pdbXkwbYzO4```|- - - - - - - - - - - -|```\nUsuários\n-Cadastro de Usuários\nhttps://youtu.be/gGjBTl3gTZs```|- - - - - - - - - - - -|```Plano de Contas\n-Centros de Resultados, Analítico e Sintético\nhttps://youtu.be/75_uQBTWCSw```|- - - - - - - - - - - -|```Contas a Pagar/Receber\n-Lançamento de Contas a Pagar e Receber\nhttps://youtu.be/lIO9eYp3xks\n\n-Relatório de Contas a Pagar e Receber\nhttps://youtu.be/Mv0bWgLNEMs\n\n-Pagamento de Contas\nhttps://youtu.be/_CavwmOvWJk```|- - - - - - - - - - - -|```Pedidos\n-Lançamento de Pedidos\nhttps://youtu.be/DGRbhbg_Dw4\n\n-Cadastro das Formas de Pagamento e Recebimento\nhttps://youtu.be/nMQeAEjMWsA\n\n-Lançamento de Indexadores\nhttps://youtu.be/FG7z7kKSAQM```|- - - - - - - - - - - -|```Notas\n-Cadastro de CFOP\nhttps://youtu.be/hSMfr5xFOWs\n\n-Emissão de NFE\nhttps://youtu.be/iouP1c_qb5s\n\n-Apresentação da Tela de NFe\nhttps://youtu.be/ks7q1v-oYBc\n\n-Importação de Notas via XML\nhttps://youtu.be/nXZdx0OlV4M\n\n-Importação de Notas pela Distribuição de Documentos Fiscais\nhttps://youtu.be/jH4ip1bEjgs```|- - - - - - - - - - - -|```Livro Caixa do Produtor Rural\n-Configuração inicial dos cadastros\nhttps://www.youtube.com/watch?v=nP0yZ_nAzoE```|- - - - - - - - - - - -|```Recursos Humanos\n-Cadastros Iniciais\nhttps://www.youtube.com/watch?v=aZHW9nvnwwg\n\n-Banco de Horas\nhttps://www.youtube.com/watch?v=ouaoAYYtErI\n\n-Proventos e Descontos\nhttps://www.youtube.com/watch?v=XHTVRFTzDGc\n-Configuração de Horário de acesso por usuário.\nhttps://www.youtube.com/watch?v=V-ygmZFMgVc```",
+    "execute2": "```Produção\n-Receita e Fabricação\nhttps://www.youtube.com/watch?v=VeJ9vhmKpUk\n\n-Produção via Pedido\nhttps://www.youtube.com/watch?v=6nmCsxgYt4o\n\n-Inventário de Estoque\nhttps://www.youtube.com/watch?v=9SD6x1QcVM0```|- - - - - - - - - - - -|```Controles em Geral\n-Controle de Talhão\nhttps://www.youtube.com/watch?v=3S_joyt8NBw```"
+  },
+  {
+    "id": 31,
+    "data": {
+      "name": "nutror-a",
+      "description": "Links dos vídeos dos sistemas (no YouTube) - Armazem"
+    },
+    "execute": "```Videos Armazém\n= = = = = = = = = = = = = = =\nCadastros\n- Safra\nhttps://www.youtube.com/watch?v=OK_K_Wi8pIA\n\n- Produtos\nhttps://www.youtube.com/watch?v=ars-6QkOYYc\n\n- Variedades\nhttps://www.youtube.com/watch?v=R8tk7h_WSiQ\n\n-Entidades\nhttps://www.youtube.com/watch?v=V5qT9SoEcWM\n\n- Propriedades\nhttps://www.youtube.com/watch?v=mYoKZP4FvqE\n\n- Tabela de Descontos\nhttps://www.youtube.com/watch?v=E4AWBh81alI\n\n- Parâmetros de Descontos dos Produtores\nhttps://www.youtube.com/watch?v=3FwZVXrnVSM\n\n- Liberação de Parâmetros\nhttps://www.youtube.com/watch?v=B-9mNA3gGHU&t=1s```|- - - - - - - - - - - -|```Lançamentos\n- Pesagem de Entrada e Romaneio\nhttps://www.youtube.com/watch?v=Z-ma102qtjU\n\n- Romaneios/Pesagens de Saída com NF de DEVOLUÇÃO\nhttps://www.youtube.com/watch?v=yD2bXc5Dm90```|- - - - - - - - - - - -|```Armazenagem\n- Armazenagem pt01 - Data Fixa\nhttps://www.youtube.com/watch?v=I4q4E4U-c-I\n\n- Armazenagem pt02 - Adiantamento de Armazenagem\nhttps://www.youtube.com/watch?v=EkSJSh6Nw3c```"
+  },
+  {
+    "id": 32,
+    "data": {
+      "name": "nutror-t",
+      "description": "Links dos vídeos dos sistemas (no YouTube) - Transporte"
+    },
+    "execute": "```Videos Transportes\n= = = = = = = = = = = = = = =\nCadastros\n- Apresentação e Entidade\nhttps://www.youtube.com/watch?v=y-quTaJrO_U\n\n- Dados da Empresa e Cadastro de Usuarios\nhttps://www.youtube.com/watch?v=9adh0s-lWxM\n\n- Cadastro de CFOP\nhttps://www.youtube.com/watch?v=CMlf8mFeZOc\n\n- Cadastro de Mercadoria\nhttps://www.youtube.com/watch?v=9uPDEMrz1DU\n\n- Lote de Mercadoria\nhttps://www.youtube.com/watch?v=kOhzi57GXDg```|- - - - - - - - - - - -|```Emissão\n- CT-e\nVídeo retirado\n\n- Eventos CTE Cancelamento, carta de correção, desacordo, reimpressão do CTE\nhttps://www.youtube.com/watch?v=CB_fER53gVM\n\n- Emissão de MDF-e\nhttps://www.youtube.com/watch?v=sURKD7Mdlb4\n\n- Eventos de MDF-e (Encerramento e Cancelamento)\nhttps://www.youtube.com/watch?v=n7j-FEd4BxM\n\n- Ordem de Carregamento\nhttps://www.youtube.com/watch?v=BqRZME5g7Ao```"
+  },
+  {
+    "id": 33,
+    "data": {
+      "name": "cliente-averbacao",
+      "description": "Tutorial de como realizar a averbação de CT-e manualmente (passar para os clientes)"
+    },
+    "execute": "**Tutorial de como realizar a averbação de CT-e manualmente**\n```1 - Inicialmente o cliente precisa do loging, senha e o código ATM para acessar o site da averbadora\nSite: https://averba.com.br/\n2 - Acessando o site a cima e realizando o login, o cliente coloca o XML do CT-e\n3 - O site vai retornar o código da averbação\n4 - Pegar o código e anexar ao sistema.\n5 - Pronto, agora só realizar a emissão.```"
+  },
+  {
+    "id": 36,
+    "data": {
+      "name": "teste",
+      "description": "teste 1"
+    },
+    "execute": "bibibibibibibibibibibibibibibibibibibibibibibibibibibibibibi"
+  }
+]
