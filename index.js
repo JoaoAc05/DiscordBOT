@@ -12,22 +12,27 @@ import { config } from "dotenv";
 config();
 import fs from 'fs';
 const comandosJson = JSON.parse(fs.readFileSync('./Comandos.json', 'utf8'));
-import express from "express";
-import router from "./Routes/Router.js";
-import cors from "cors";
+import app from "./src/app.js";
 
+const port = normalizaPort(process.env.PORT || '3000');
 
+function normalizaPort(val) {
+    const port = parseInt(val, 10);
+    if (isNaN(port)) {
+        return val;
+    }
+
+    if (port >= 0) {
+        return port;
+    }
+    return false;
+}
 
 client.once("ready", () => {
-    console.log(`RuralHub Bot foi iniciado em ${client.guilds.cache.size} servidores.`);// Exibir informações de servidores/
+    console.log(`RuralHub Bot foi iniciado em ${client.guilds.cache.size} servidores.`); // Exibir informações de servidores
     client.user.setActivity(`Conheça a https://ruralhub.com.br/`);
 })
 client.login(process.env.TOKEN);
-
-const app = express();
-app.use(cors());
-app.use(express.json());
-app.use("/", router);
 
 // Configurar os comandos do bot
 client.commands = new Map(); //Criando uma nova colenção que ira armazenar os comandos finais
@@ -108,8 +113,8 @@ client.on("messageCreate", async message => {
     }   
 });
 
-app.listen(3000, () => {
-    console.log("Servidor REST API rodando na porta 3000.");
+app.listen(port, function () {
+    console.log(`Servidor REST API rodando na porta ${port}.`);
 });
 
 // Pra executar só usar o comando: node server.js ou node --no-warnings index.js
