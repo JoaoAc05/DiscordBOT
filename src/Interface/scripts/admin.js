@@ -45,6 +45,7 @@ btnSync.addEventListener("click", () => {
     })
     .then(response => {
         if (!response.ok) {
+            console.log(response.statusText)
             throw new Error(`Erro ao sincronizar comandos: ${response.statusText}`);
         }
         return response.json();
@@ -56,7 +57,7 @@ btnSync.addEventListener("click", () => {
         if(error == "TypeError: Failed to fetch"){
             showPopup(`Verifique se o servidor da API está rodando.`, "alert")
             resultsContainer.innerHTML += `<br> <p>Verifique se o servidor da API está rodando e aguarde até o botão de sincronização aparecer para tentar novamente</p>`
-            console.log("Aparentemente a API está fora, chama o João ou o Luan...")
+            console.log("Aparentemente a API está fora, chama o João.")
             return;
         }
         showPopup("Erro interno: " + error.message, "error");

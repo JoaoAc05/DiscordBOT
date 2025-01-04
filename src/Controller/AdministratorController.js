@@ -1,7 +1,9 @@
 import { exec } from "child_process";
+import { Console } from "console";
 
 class AdministratorController {
     updateComandos(req, res){
+        console.log("ROTA SINCRONIZAR COMANDOS")
         exec("node UpdateComandos.js", (error, stdout, stderr) => {
             if (error) {
                 console.error(`Erro ao executar o script: ${error.message}`);
